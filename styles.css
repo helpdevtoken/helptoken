@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD580; /* Warm yellow-orange */
+    color: #2B2D42; /* Dark blue */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFB347; /* Slightly darker orange */
+    color: white;
+}
+
+.center-content {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px; /* Limit the width of the center section */
+}
+
+.center-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contract {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 0.9em; /* Smaller, less obtrusive font size */
+    color: #2B2D42;
+    text-align: center;
+    word-wrap: break-word; /* Ensures long addresses break properly */
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #2B2D42; /* Dark blue */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.links a img {
+    width: 24px;
+    height: 24px;
+}
+
+.links a:hover {
+    background-color: #1A1C30; /* Slightly darker blue */
+}
+
+.roadmap {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.roadmap h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.roadmap ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.roadmap ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #FFB347;
+    color: white;
+}
