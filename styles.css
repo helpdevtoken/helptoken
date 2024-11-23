@@ -153,3 +153,64 @@ footer {
 .back-button:hover {
     background-color: #1A1C30; /* Slightly darker blue */
 }
+
+.need-help-section {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #FFD580; /* Warm yellow background to differentiate */
+    color: #2B2D42; /* Dark blue text */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.need-help-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #2B2D42;
+}
+
+.need-help-section p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.dm-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2B2D42; /* Dark blue */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.dm-button:hover {
+    background-color: #1A1C30; /* Slightly darker blue */
+}
+
+.help-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #FF7F50, #FF7F50); /* Gradient from coral to warm yellow */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.help-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #FF6347, #FF7F50); /* Brighter hover gradient */
+}
+
+
